@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kindness</title>
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+</head>
+
+<body>
+
+    <!--Navigation-->
+    <header>
+        <nav>
+            <section class="logo">
+                <img src="./images/logo.png" alt="logo">
+            </section>
+            <ul>
+                <!--Users and Guest-->
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Dashboard</a></li>
+                <!--Only Guest-->
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Register</a></li>
+                <!--Only Users-->
+                <li><a href="#">Create Postcard</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+
+    <main id="content">
+        <!--Welcome Page-->
+        <section class="welcome-content">
+            <article class="welcome-content-text">
+                <h1>HELP IS OUR MISSION</h1> 
+                <p>Be part of our mission - to provide full care, protection and quality education for children in Bulgaria. Together we can create a better future FOR EVERY CHILD..</p>
+            </article>
+            <article class="welcome-content-image">
+                <img src="./images/kindness-at-work_featured_bac@2x.png" alt="dog">
+            </article>
+        </section>
+
+        <!--Login Page-->
+        <section id="loginPage">
+            <form class="loginForm">
+                <img src="./images/logo.png" alt="logo" />
+                <h2>Login</h2>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input id="email" name="email" type="text" placeholder="careforeachchild@gmail.com" value="">
+                </div>
+
+                <div>
+                    <label for="password">Password:</label>
+                    <input id="password" name="password" type="password" placeholder="********" value="">
+                </div>
+
+                <button class="btn" type="submit">Login</button>
+
+                <p class="field">
+                    <span>If you don't have profile click <a href="#">here</a></span>
+                </p>
+            </form>
+        </section>
+
+        <!--Register Page-->
+        <section id="registerPage">
+            <form class="registerForm">
+                <img src="./images/logo.png" alt="logo" />
+                <h2>Register</h2>
+                <div class="on-dark">
+                 <select class="on-dark">
+                    <option >–Select Your Type Of Organization–</option>
+                    <option>FOUNDATION</option>
+                    <option>NON GOVERNMENTAL ORGANIZATION</option>
+                </select>
+                </div>
+
+                <div class="on-dark">
+                    <label for="name-organization">Name of the organization:</label>
+                    <input id="name-organization" name="name-organization type="text" placeholder="Foundation care for every child" value="">
+                </div>
+
+                <div class="on-dark">
+                    <label for="email">Email:</label>
+                    <input id="email" name="email" type="text" placeholder="careforeachchild@gmail.com" value="">
+                </div>
+
+                <div class="on-dark">
+                    <label for="password">Password:</label>
+                    <input id="password" name="password" type="password" placeholder="********" value="">
+                </div>
+
+                <div class="on-dark">
+                    <label for="repeatPassword">Repeat Password:</label>
+                    <input id="repeatPassword" name="repeatPassword" type="password" placeholder="********" value="">
+                </div>
+
+                <button class="btn" type="submit">Register</button>
+
+                <p class="field">
+                    <span>If you have profile click <a href="#">here</a></span>
+                </p>
+            </form>
+        </section>
+
+        <!--Dashboard-->
+        <section id="dashboard">
+            <h2 class="dashboard-title">Active causes</h2>
+            <div class="causes-dashboard">
+                <div class="causes-board">
+                    <article class="service-img">
+                        <img class="cause-image-cover" src="./images/montessori.jpg">
+                    </article>
+                    <h2 class="Title">Thanks Campaign</h2>
+                    <h3 class="Category">Medicine</h3>
+                    <div class="action">
+                        <a class="btn" href="#">Details</a>
+                    </div>
+                </div>
+
+                <!--If there is no pets in dashboard-->
+                <div>
+                    <p class="no-causes">There are no active causes at the moment.</p>
+                </div>
+            </div>
+        </section>
+
+        <!--Create Page-->
+        <section id="createPage">
+            <form class="createForm">
+                <img src="./images/montessori.jpg">
+                <div>
+                    <h2>Create a cause</h2>
+                    <div class="title">
+                        <label for="title">Title:</label>
+                        <input name="title" id="title" type="text" placeholder="Thanks Campaign">
+                    </div>
+                    <div class="category">
+                        <label for="category">Category:</label>
+                        <input name="category" id="category" type="text" placeholder="Medicine">
+                    </div>
+                    <div class="description">
+                        <label for="description">Description:</label>
+                        <input name="description" id="description" type="text" placeholder="Enter description">
+                    </div>
+                    <div class="image">
+                        <label for="image">Image:</label>
+                        <input name="image" id="image" type="text" placeholder="./image/cause.jpeg">
+                    </div>
+                    <button class="btn" type="submit">Create cause</button>
+                </div>
+            </form>
+        </section>
+
+        <!--Edit Page-->
+        <section id="editPage">
+            <form class="editForm">
+                <img src="./images/montessori.jpg">
+                <div>
+                    <h2>Edit cause</h2>
+                    <div class="title">
+                        <label for="title">Title:</label>
+                        <input name="title" id="title" type="text" value="Thanks Campaign">
+                    </div>
+                    <div class="category">
+                        <label for="category">Category:</label>
+                        <input name="category" id="category" type="text" value="Medicine">
+                    </div>
+                    <div class="Age">
+                        <label for="description">Description:</label>
+                        <input name="description" id="description" type="text" value="Enter description">
+                    </div>
+                    
+                    <div class="image">
+                        <label for="image">Image:</label>
+                        <input name="image" id="image" type="text" value="./image/cause.jpeg">
+                    </div>
+                    <button class="btn" type="submit">Edit cause</button>
+                </div>
+            </form>
+        </section>
+
+        <!--Details Page-->
+        <section id="detailsPage">
+            <div class="details">
+                <div class="causePic">
+                    <img src="./images/montessori.jpg">
+                </div>
+                <div>
+                    <div class="causeInfo">
+                        <h1>Title: Thanks Campaign</h1>
+                        <h3>Category: Medicine</h3>
+                        <h4>Description: Enter description</h4>
+                        <h4 class="donation">Donation: 0$</h4>
+                    </div>
+                    <!-- if there is no registered user, do not display div-->
+                    <div class="actionBtn">
+                        <!-- Only for registered user and creator of the pets-->
+                        <a href="#" class="edit">Edit</a>
+                        <a href="#" class="remove">Delete</a>
+                        <!--(Bonus Part) Only for no creator and user-->
+                        <a href="#" class="donate">Donate</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    
+
+    <footer>Kindness 2022©</footer>
+</body>
+
+</html>
