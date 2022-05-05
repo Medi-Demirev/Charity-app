@@ -1,0 +1,28 @@
+form>h2 {
+    font-weight: bold;
+}
+    
+.registerForm {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    width: 350px;
+    height: 700px;
+    border-radius: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: rgb(246,230,41);
+    background: radial-gradient(circle, rgba(246,230,41,0.3757878151260504) 0%, rgba(246,237,41,0.3757878151260504) 36%);
+    justify-content: center;
+    margin-top: 47px;
+}
+
+#registerPage {
+    display: block;
+    background: rgb(27,101,246);
+    background: linear-gradient(90deg, rgba(27,101,246,0.4374124649859944) 22%, rgba(41,121,246,0.47102591036414565) 27%);
+    text-align: center;
+    margin-top: 10px;
+    height: 794px;
+
+}

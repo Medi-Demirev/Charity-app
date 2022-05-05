@@ -1,0 +1,88 @@
+.welcome-content {
+    display: flex;
+    background: rgb(27,101,246);
+    background: linear-gradient(90deg, rgba(27,101,246,0.4374124649859944) 22%, rgba(41,121,246,0.47102591036414565) 27%);
+    justify-content: flex-start;
+    height: 380px;
+    border-radius: 50%/ 0 0 40px 40px;
+}
+
+.welcome-content-text {
+    display: flex;
+    width: 350px;
+    margin-left: 10%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    left: 50px;
+}
+
+.welcome-content-text h1 {
+    font-size: 60px;
+    margin: 0px;
+    color: white;
+    font-weight: 400;
+}
+
+.welcome-content-text p {
+    color: white;
+}
+
+h1.bold-welcome {
+    font-weight: 800;
+}
+
+.welcome-content-image {
+    width: 600px;
+    position: relative;
+    top: 14px;
+    right: 10px;
+    left: 130px;
+    
+}
+
+.welcome-content-image img {
+    width: 100%;
+}
+.first{
+    background: rgb(27,101,246);
+    background: linear-gradient(90deg, rgba(27,101,246,0.4374124649859944) 22%, rgba(41,121,246,0.47102591036414565) 27%);
+    margin-top: 100px;
+    margin-bottom: 150px;
+    margin-left: 200px;
+    width: 340px;
+    height: 300px;
+    float: left;
+    background-color: rgb(0, 255, 157);
+    -webkit-border-radius: 18px 18px 18px 18px;
+    -moz-border-radius: 18px 18px 18px 18px;
+    border-radius: 18px 18px 18px 18px;
+    float: left;
+    padding: 50px;
+    text-align: center;
+    font-size: larger;
+}
+.second{
+  
+    background-image: url("../images/care.png");
+    margin-top: 100px;
+    margin-bottom: 150px;
+    margin-left: 400px;
+    width: 540px;
+    height: 300px;
+    float: right;
+    -webkit-border-radius: 18px 18px 18px 18px;
+    -moz-border-radius: 18px 18px 18px 18px;
+    border-radius: 18px 18px 18px 18px;
+    float: left;
+    padding: 50px;
+    text-align: center;
+}
+
+
+
+
+
+ 
+ 

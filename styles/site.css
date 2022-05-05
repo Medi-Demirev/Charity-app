@@ -1,0 +1,59 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+nav {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5%;
+    margin: auto;
+    background-color: hsl(0, 0%, 100%);
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight:bold;
+}
+
+footer {
+    font-weight: bolder;
+    text-align: center;
+    padding: 10px;
+    background: rgb(27,153,246);
+    background: linear-gradient(90deg, rgba(27,153,246,0.5354516806722689) 22%, rgba(41,246,240,0.47102591036414565) 27%);  
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    height: 30px;
+}
